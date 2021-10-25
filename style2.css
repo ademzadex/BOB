@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');/*POLICE ORIGINE*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Playfair+Display:ital,wght@0,600;1,500&display=swap');/*POLICE TITRES*/
+body{
+    font-family: 'Playfair Display', serif;
+    padding: 0%;
+    marging: 0%;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #B40431;
+    border-bottom: 3px solid #B40431;
+    padding-bottom: 5px;
+    margin-right: 10px;
+}
+nav{
+    background-color: #000;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    border-bottom: 5px solid #B40431;
+    align-items: center;
+}
+nav h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+header button{
+	margin: 10px 20px ;
+}
+nav h2{
+    color: #fff;
+    margin-left: 30px;
+}
+header{
+    background-color: #717171;
